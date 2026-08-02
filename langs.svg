@@ -1,4 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 40" width="220" height="40">
-  <rect width="220" height="40" fill="#0f0f23" rx="6"/>
-  <text x="10" y="26" fill="#8b949e" font-family="monospace" font-size="11" font-weight="bold">langs.svg</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 70" width="240" height="70"><rect width="240" height="70" fill="#0f0f23" rx="8" /><text x="14" y="20" fill="#8b949e" font-family="monospace" font-size="11" font-weight="bold">Top Languages</text><text x="14" y="38" fill="#c9d1d9" font-family="monospace" font-size="10"><tspan x="14" dy="1.35em">Python: 1 repo</tspan></text></svg>
