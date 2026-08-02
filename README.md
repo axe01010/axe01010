@@ -54,7 +54,7 @@
 
 </div>
 
-Every graphic here is generated, not embedded from anyone else's server. `ascii.svg` is an Arch Linux logo pushed through a character ramp by [`scripts/make_portrait.py`](/axe01010/axe01010/blob/main/scripts/make_portrait.py); the stat graphics and these section headings are drawn by [a scheduled action](/axe01010/axe01010/blob/main/.github/workflows/stats.yml) straight from the GitHub GraphQL API, once a day, committing only what changed. They animate with SMIL inside the SVG, because GitHub strips scripts from READMEs — and since nothing loads from a third party, nothing here can rate-limit or go dark.
+Every graphic here is generated, not embedded from anyone else's server. `ascii.svg` is a character-ramp ASCII portrait rendered by [`scripts/make_portrait.py`](/axe01010/axe01010/blob/main/scripts/make_portrait.py); the stat graphics and these section headings are drawn by [a scheduled action](/axe01010/axe01010/blob/main/.github/workflows/stats.yml) straight from the GitHub GraphQL API, once a day, committing only what changed. They animate with SMIL inside the SVG, because GitHub strips scripts from READMEs — and since nothing loads from a third party, nothing here can rate-limit or go dark.
 
 The headings are SVGs for the same reason: GitHub also strips CSS, so an image is the only way to put this page's own typeface on them. The typeface is JetBrains Mono, subset to just the characters each graphic draws and inlined as base64.
 
