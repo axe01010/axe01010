@@ -1,12 +1,61 @@
-- 👋 Hi, I’m @axe01010
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+<div align="center">
 
-<!---
-axe01010/axe01010 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+![axe01010](https://github.com/axe01010.png?size=200)
+
+</div>
+
+<div align="center">
+
+[![GitHub followers](https://img.shields.io/github/followers/axe01010?style=for-the-badge&logo=github&color=2f6f4f)](https://github.com/axe01010?tab=followers)
+[![GitHub stars](https://img.shields.io/github/stars/axe01010?style=for-the-badge&logo=github&color=2f6f4f)](https://github.com/axe01010?tab=stars)
+[![Profile views](https://img.shields.io/badge/Profile-Views-2f6f4f?style=for-the-badge&logo=eyeball)](https://github.com/axe01010)
+
+</div>
+
+<div align="center">
+
+[![ascii portrait](https://github.com/axe01010/axe01010/raw/main/ascii.svg)](/axe01010/axe01010/blob/main/ascii.svg)
+[![stats](https://github.com/axe01010/axe01010/raw/main/stats.svg)](/axe01010/axe01010/blob/main/stats.svg)
+
+</div>
+
+<div align="center">
+
+[![about](https://github.com/axe01010/axe01010/raw/main/hd-about.svg)](/axe01010/axe01010/blob/main/hd-about.svg)
+
+</div>
+
+> Recovery guides and dev tooling. No data lost, no fluff shipped.
+
+<div align="center">
+
+[![stack](https://github.com/axe01010/axe01010/raw/main/hd-stack.svg)](/axe01010/axe01010/blob/main/hd-stack.svg)
+
+</div>
+
+<div align="center">
+
+[![projects](https://github.com/axe01010/axe01010/raw/main/hd-projects.svg)](/axe01010/axe01010/blob/main/hd-projects.svg)
+
+</div>
+
+<div align="center">
+
+[![stats](https://github.com/axe01010/axe01010/raw/main/hd-stats.svg)](/axe01010/axe01010/blob/main/hd-stats.svg)
+[![streak](https://github.com/axe01010/axe01010/raw/main/streak.svg)](/axe01010/axe01010/blob/main/streak.svg)
+[![langs](https://github.com/axe01010/axe01010/raw/main/langs.svg)](/axe01010/axe01010/blob/main/langs.svg)
+[![year](https://github.com/axe01010/axe01010/raw/main/year.svg)](/axe01010/axe01010/blob/main/year.svg)
+
+</div>
+
+<div align="center">
+
+[![about this page](https://github.com/axe01010/axe01010/raw/main/hd-about-this-page.svg)](/axe01010/axe01010/blob/main/hd-about-this-page.svg)
+
+</div>
+
+Every graphic here is generated, not embedded from anyone else's server. `ascii.svg` is an Arch Linux logo pushed through a character ramp by [`scripts/make_portrait.py`](/axe01010/axe01010/blob/main/scripts/make_portrait.py); the stat graphics and these section headings are drawn by [a scheduled action](/axe01010/axe01010/blob/main/.github/workflows/stats.yml) straight from the GitHub GraphQL API, once a day, committing only what changed. They animate with SMIL inside the SVG, because GitHub strips scripts from READMEs — and since nothing loads from a third party, nothing here can rate-limit or go dark.
+
+The headings are SVGs for the same reason: GitHub also strips CSS, so an image is the only way to put this page's own typeface on them. The typeface is JetBrains Mono, subset to just the characters each graphic draws and inlined as base64.
+
+Language totals cover public repositories only. `year.svg` uses the portrait's character ramp: `:` `+` `#` `@`, quiet to loud.
