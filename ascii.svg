@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 40" width="480" height="240">
+  <rect width="80" height="40" fill="#1a1a2e"/>
+  <g fill="#1793d1" font-family="monospace" font-size="3.5" font-weight="bold">
+    <text x="8" y="8">    .__</text>
+    <text x="8" y="12">   /  `.</text>
+    <text x="8" y="16">  |     |</text>
+    <text x="8" y="20">   \___/</text>
+    <text x="8" y="24">  /|   |\</text>
+    <text x="8" y="28"> | |   | |</text>
+    <text x="8" y="32">  \|   |/</text>
+    <text x="8" y="36">   `---'</text>
+  </g>
+  <g fill="#3333ff" font-family="monospace" font-size="3.5" font-weight="bold">
+    <text x="8" y="8">    .__</text>
+    <text x="8" y="12">   /  `.</text>
+    <text x="8" y="16">  |     |</text>
+    <text x="8" y="20">   \___/</text>
+    <text x="8" y="24">  /|   |\</text>
+    <text x="8" y="28"> | |   | |</text>
+    <text x="8" y="32">  \|   |/</text>
+    <text x="8" y="36">   `---'</text>
+  </g>
+</svg>
