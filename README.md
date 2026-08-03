@@ -8,6 +8,7 @@
 
 [![GitHub followers](https://img.shields.io/github/followers/axe01010?style=for-the-badge&logo=github&color=2f6f4f)](https://github.com/axe01010?tab=followers)
 [![GitHub stars](https://img.shields.io/github/stars/axe01010?style=for-the-badge&logo=github&color=2f6f4f)](https://github.com/axe01010?tab=stars)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live-2f6f4f?style=for-the-badge&logo=githubpages)](https://axe01010.github.io/portfolio-v2/)
 [![Profile views](https://img.shields.io/badge/Profile-Views-2f6f4f?style=for-the-badge&logo=eyeball)](https://github.com/axe01010)
 
 </div>
