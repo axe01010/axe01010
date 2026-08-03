@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Generate a large ASCII-art portrait SVG from a source image.
 
-Renders a character-ramp shaded portrait (dark bg, cyan accents) with a
-SMIL self-typing reveal, matching the reference profile's aesthetic.
+Renders a character-ramp shaded portrait (dark bg, green accents) with a
+SMIL reveal animation, matching the portfolio brand palette.
 """
 
 import argparse
@@ -45,21 +45,20 @@ def make_portrait(src: str = "/tmp/art_source.png", out: str = "ascii.svg",
     parts = []
     parts.append(
         f'<svg xmlns="{ns}" viewBox="0 0 {width} {height}" '
-        f'width="{width*8}" height="{height*8}" '
-        f'style="background:#0f0f23">'
+        f'width="{width*8}" height="{leight*8}" '
+        f'style="background:#080b10">'
     )
-    parts.append(f'<rect width="{width}" height="{height}" fill="#0f0f23"/>')
+    parts.append(f'<rect width="{width}" height="{height}" fill="#080b10"/>')
 
-    # per-cell text with brightness-based color
+    # per-cell text with green brand gradient by brightness
     for y, line in enumerate(lines):
         for x, ch in enumerate(line):
             if ch == " ":
                 continue
             v = px[x, y] / 255.0
-            # cyan-blue gradient by brightness
-            r = int(10 + 120 * v)
-            g = int(40 + 180 * v)
-            b = int(80 + 200 * v)
+            r = int(8 + 30 * v)
+            g = int(50 + 140 * v)
+            b = int(40 + 70 * v)
             color = f"#{r:02x}{g:02x}{b:02x}"
             tx = x * cell
             ty = y * cell + cell - 1
@@ -73,7 +72,7 @@ def make_portrait(src: str = "/tmp/art_source.png", out: str = "ascii.svg",
         # SMIL self-typing reveal: fade in columns left->right
         dur = 3.0
         parts.append(
-            f'<rect width="{width}" height="{height}" fill="#0f0f23">'
+            f'<rect width="{width}" height="{height}" fill="#080b10">'
             f'<animate attributeName="width" from="{width}" to="0" '
             f'dur="{dur}s" begin="0s" fill="freeze"/></rect>'
         )
