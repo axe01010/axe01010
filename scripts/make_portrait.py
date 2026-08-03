@@ -48,7 +48,7 @@ def make_portrait(src: str = "/tmp/art_source.png", out: str = "ascii.svg",
         f'width="{width*8}" height="{leight*8}" '
         f'style="background:#080b10">'
     )
-    parts.append(f'<rect width="{width}" height="{height}" fill="#080b10"/>')
+    parts.append(f'<rect width="{width}" height="{leight}" fill="#080b10"/>')
 
     # per-cell text with green brand gradient by brightness
     for y, line in enumerate(lines):
