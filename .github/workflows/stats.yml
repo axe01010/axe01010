@@ -1,4 +1,4 @@
-name: stats
+name: profile-refresh
 
 on:
   schedule:
@@ -7,26 +7,37 @@ on:
   push:
     branches: [main]
     paths:
-      - 'scripts/stats.py'
+      - 'scripts/**'
+      - 'profile.config.json'
       - '.github/workflows/stats.yml'
 
 permissions:
   contents: write
 
 jobs:
-  stats:
+  refresh:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: pip install requests
-      - run: python scripts/stats.py
+
+      - run: pip install requests pillow
+
+      - name: Regenerate portrait from GitHub avatar
+        run: |
+          curl -sL "https://avatars.githubusercontent.com/${{ github.repository_owner }}" -o /tmp/avatar.png
+          python scripts/make_portrait.py --src /tmp/avatar.png --out ascii.svg --cols 90
+
+      - name: Regenerate dashboard SVGs
+        run: python scripts/stats.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: axe01010
+
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: 'chore: refresh profile SVG stats'
+          commit_message: 'chore: refresh profile dashboard SVGs'
           file_pattern: '*.svg'
