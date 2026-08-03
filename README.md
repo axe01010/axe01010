@@ -2,14 +2,13 @@
 
 ![axe01010](https://github.com/axe01010.png?size=200)
 
-</div>
+### axe git
 
-<div align="center">
+**Recovery guides and dev tooling** · India
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live-2f6f4f?style=for-the-badge&logo=githubpages)](https://axe01010.github.io/portfolio-v2/)
 [![GitHub followers](https://img.shields.io/github/followers/axe01010?style=for-the-badge&logo=github&color=2f6f4f)](https://github.com/axe01010?tab=followers)
 [![GitHub stars](https://img.shields.io/github/stars/axe01010?style=for-the-badge&logo=github&color=2f6f4f)](https://github.com/axe01010?tab=stars)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Live-2f6f4f?style=for-the-badge&logo=githubpages)](https://axe01010.github.io/portfolio-v2/)
-[![Profile views](https://img.shields.io/badge/Profile-Views-2f6f4f?style=for-the-badge&logo=eyeball)](https://github.com/axe01010)
 
 </div>
 
@@ -26,7 +25,7 @@
 
 </div>
 
-> Recovery guides and dev tooling. No data lost, no fluff shipped.
+> No data lost, no fluff shipped. Android rescue · Cursor automation · security research.
 
 <div align="center">
 
@@ -46,8 +45,8 @@
 |---------|-------------|
 | [nothing-phone-bootloop-recovery](https://github.com/axe01010/nothing-phone-bootloop-recovery) | Step-by-step guide to recover Nothing Phone from bootloop via fastboot |
 | [cursor-android-toolkit](https://github.com/axe01010/cursor-android-toolkit) | Termux + Ubuntu proot scripts to run Cursor IDE/CLI on Android |
-| [portfolio-v2](https://axe01010.github.io/portfolio-v2/) | Unified portfolio site aggregating all public projects |
-| [skills-orchestrator](https://github.com/axe01010/skills-orchestrator) | Cursor skills orchestrator — install and manage dev skills from GitHub |
+| [portfolio-v2](https://axe01010.github.io/portfolio-v2/) | Live portfolio — all public projects in one place |
+| [skills-orchestrator](https://github.com/axe01010/skills-orchestrator) | Cursor skills orchestrator with design + dev skill bundles |
 | [security-research-hub](https://github.com/axe01010/security-research-hub) | Security research writeups and architecture diagrams |
 
 <div align="center">
