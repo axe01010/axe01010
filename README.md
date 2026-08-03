@@ -45,7 +45,9 @@
 |---------|-------------|
 | [nothing-phone-bootloop-recovery](https://github.com/axe01010/nothing-phone-bootloop-recovery) | Step-by-step guide to recover Nothing Phone from bootloop via fastboot |
 | [cursor-android-toolkit](https://github.com/axe01010/cursor-android-toolkit) | Termux + Ubuntu proot scripts to run Cursor IDE/CLI on Android |
+| [portfolio-v2](https://axe01010.github.io/portfolio-v2/) | Unified portfolio site aggregating all public projects |
 | [skills-orchestrator](https://github.com/axe01010/skills-orchestrator) | Cursor skills orchestrator — install and manage dev skills from GitHub |
+| [security-research-hub](https://github.com/axe01010/security-research-hub) | Security research writeups and architecture diagrams |
 
 <div align="center">
 
