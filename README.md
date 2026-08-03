@@ -1,11 +1,19 @@
 <div align="center">
 
-[![axe git — recovery guides & dev tooling](https://github.com/axe01010/axe01010/raw/main/banner.svg)](https://axe01010.github.io/portfolio-v2/)
+[![dashboard](https://github.com/axe01010/axe01010/raw/main/dashboard.svg)](https://axe01010.github.io/portfolio-v2/)
 
-[![Portfolio Live](https://img.shields.io/badge/Portfolio-Live-45a06e?style=for-the-badge&logo=githubpages&logoColor=white)](https://axe01010.github.io/portfolio-v2/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live-45a06e?style=for-the-badge&logo=githubpages&logoColor=white)](https://axe01010.github.io/portfolio-v2/)
 [![Followers](https://img.shields.io/github/followers/axe01010?style=for-the-badge&logo=github&color=2f6f4f)](https://github.com/axe01010?tab=followers)
-[![Stars](https://img.shields.io/github/stars/axe01010?style=for-the-badge&logo=github&color=2f6f4f)](https://github.com/axe01010?tab=stars)
-[![Location](https://img.shields.io/badge/India-2f6f4f?style=for-the-badge&logo=googlemaps&logoColor=white)](https://github.com/axe01010)
+[![Repos](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/axe01010&query=$.public_repos&label=Repos&color=2f6f4f&style=for-the-badge)](https://github.com/axe01010?tab=repositories)
+[![India](https://img.shields.io/badge/India-2f6f4f?style=for-the-badge&logo=googlemaps&logoColor=white)](https://github.com/axe01010)
+
+</div>
+
+<br>
+
+<div align="center">
+
+[![contribution heatmap](https://github.com/axe01010/axe01010/raw/main/heatmap.svg)](/axe01010/axe01010/blob/main/heatmap.svg)
 
 </div>
 
@@ -15,14 +23,14 @@
 
 <table>
 <tr>
-<td valign="top" width="50%">
+<td width="58%">
 
 [![ascii portrait](https://github.com/axe01010/axe01010/raw/main/ascii.svg)](/axe01010/axe01010/blob/main/ascii.svg)
 
 </td>
-<td valign="top" width="50%">
+<td width="42%" valign="top">
 
-[![live stats](https://github.com/axe01010/axe01010/raw/main/stats.svg)](/axe01010/axe01010/blob/main/stats.svg)
+[![metrics](https://github.com/axe01010/axe01010/raw/main/metrics.svg)](/axe01010/axe01010/blob/main/metrics.svg)
 
 </td>
 </tr>
@@ -30,63 +38,32 @@
 
 </div>
 
-<div align="center">
-
-[![connect](https://github.com/axe01010/axe01010/raw/main/connect.svg)](https://axe01010.github.io/portfolio-v2/)
-
-</div>
+<br>
 
 <div align="center">
 
-[![about](https://github.com/axe01010/axe01010/raw/main/hd-about.svg)](/axe01010/axe01010/blob/main/hd-about.svg)
+[![featured projects](https://github.com/axe01010/axe01010/raw/main/projects.svg)](https://axe01010.github.io/portfolio-v2/)
 
 </div>
 
-> **No data lost, no fluff shipped.**  
-> Android rescue · Cursor automation · security research · APK tooling
+<br>
 
 <div align="center">
 
-[![stack](https://github.com/axe01010/axe01010/raw/main/stack.svg)](/axe01010/axe01010/blob/main/stack.svg)
+[![stack and links](https://github.com/axe01010/axe01010/raw/main/toolbar.svg)](/axe01010/axe01010/blob/main/toolbar.svg)
 
 </div>
+
+<br>
 
 <div align="center">
 
-[![projects](https://github.com/axe01010/axe01010/raw/main/hd-projects.svg)](/axe01010/axe01010/blob/main/hd-projects.svg)
+[![signature](https://github.com/axe01010/axe01010/raw/main/signature.svg)](/axe01010/axe01010/blob/main/profile.config.json)
 
 </div>
 
-<div align="center">
+---
 
-[![featured projects](https://github.com/axe01010/axe01010/raw/main/featured.svg)](https://axe01010.github.io/portfolio-v2/)
+**axe git** · Android rescue · Cursor automation · security research
 
-</div>
-
-<div align="center">
-
-[![stats](https://github.com/axe01010/axe01010/raw/main/hd-stats.svg)](/axe01010/axe01010/blob/main/hd-stats.svg)
-
-</div>
-
-<div align="center">
-
-<table>
-<tr>
-<td>[![streak](https://github.com/axe01010/axe01010/raw/main/streak.svg)](/axe01010/axe01010/blob/main/streak.svg)</td>
-<td>[![langs](https://github.com/axe01010/axe01010/raw/main/langs.svg)](/axe01010/axe01010/blob/main/langs.svg)</td>
-<td>[![year](https://github.com/axe01010/axe01010/raw/main/year.svg)](/axe01010/axe01010/blob/main/year.svg)</td>
-</tr>
-</table>
-
-</div>
-
-<div align="center">
-
-[![about this page](https://github.com/axe01010/axe01010/raw/main/hd-about-this-page.svg)](/axe01010/axe01010/blob/main/hd-about-this-page.svg)
-
-</div>
-
-Every graphic here is **self-hosted** — generated from this repo, not embedded from third-party servers. [`scripts/stats.py`](/axe01010/axe01010/blob/main/scripts/stats.py) pulls live data from the GitHub GraphQL API daily via [`.github/workflows/stats.yml`](/axe01010/axe01010/blob/main/.github/workflows/stats.yml). [`scripts/make_portrait.py`](/axe01010/axe01010/blob/main/scripts/make_portrait.py) renders the ASCII portrait with a green brand ramp. SMIL animations work because GitHub strips scripts but allows SVG animation.
-
-**Brand:** `#080b10` background · `#2f6f4f` accent · JetBrains Mono headings
+All graphics are **self-hosted** and rebuilt from [`profile.config.json`](/axe01010/axe01010/blob/main/profile.config.json) + live GitHub data via [`scripts/stats.py`](/axe01010/axe01010/blob/main/scripts/stats.py). Portrait from [`scripts/make_portrait.py`](/axe01010/axe01010/blob/main/scripts/make_portrait.py). Daily CI: [`.github/workflows/stats.yml`](/axe01010/axe01010/blob/main/.github/workflows/stats.yml).
