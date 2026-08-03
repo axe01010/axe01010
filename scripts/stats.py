@@ -37,7 +37,7 @@ query($login:String!){
     name
     bio
     location
-    blog
+    websiteUrl
     followers{totalCount}
     following{totalCount}
     repositories(ownerAffiliations:OWNER,first:100){
@@ -65,7 +65,12 @@ def fetch_graphql():
         timeout=30,
     )
     r.raise_for_status()
-    return r.json()["data"]["user"]
+    payload = r.json()
+    if "errors" in payload:
+        raise RuntimeError(payload["errors"])
+    if not payload.get("data", {}).get("user"):
+        raise RuntimeError(payload)
+    return payload["data"]["user"]
 
 
 def _svg_root(width, height):
@@ -131,7 +136,7 @@ def make_banner(user, path="banner.svg"):
     _text(svg, 44, 52, user.get("name") or user["login"], fill=ACCENT_BRIGHT, size=22, bold=True, mono=False)
     _text(svg, 44, 78, user.get("bio") or "Recovery guides and dev tooling", fill=MUTED, size=11, mono=False)
     loc = user.get("location") or "India"
-    blog = user.get("blog") or "axe01010.github.io/portfolio-v2"
+    blog = user.get("websiteUrl") or "axe01010.github.io/portfolio-v2"
     _text(svg, 44, 100, f"{loc}  ·  {blog.replace('https://', '')}", fill=TEXT, size=9)
     # grid accent
     for i in range(0, w, 48):
