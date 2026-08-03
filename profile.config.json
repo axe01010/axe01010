@@ -1,0 +1,27 @@
+{
+  "name": "axe git",
+  "handle": "axe01010",
+  "tagline": "Recovery guides and dev tooling",
+  "motto": "No data lost, no fluff shipped.",
+  "location": "India",
+  "portfolio": "https://axe01010.github.io/portfolio-v2/",
+  "focus": [
+    "Nothing Phone bootloop recovery",
+    "Cursor IDE on Android (Termux)",
+    "APK signing & security research"
+  ],
+  "stack": ["Python", "Android", "Fastboot", "Termux", "Cursor", "APK", "GitHub Actions"],
+  "links": [
+    {"label": "Portfolio", "url": "https://axe01010.github.io/portfolio-v2/"},
+    {"label": "Skills", "url": "https://github.com/axe01010/skills-orchestrator"},
+    {"label": "Research", "url": "https://github.com/axe01010/security-research-hub"},
+    {"label": "Android Kit", "url": "https://github.com/axe01010/cursor-android-toolkit"}
+  ],
+  "featured": [
+    {"name": "nothing-phone-bootloop-recovery", "desc": "Fastboot rescue guide for Nothing Phone", "url": "https://github.com/axe01010/nothing-phone-bootloop-recovery"},
+    {"name": "cursor-android-toolkit", "desc": "Run Cursor on Android via Termux + Ubuntu", "url": "https://github.com/axe01010/cursor-android-toolkit"},
+    {"name": "skills-orchestrator", "desc": "Cursor skills + design bundles installer", "url": "https://github.com/axe01010/skills-orchestrator"},
+    {"name": "security-research-hub", "desc": "APK analysis & security writeups", "url": "https://github.com/axe01010/security-research-hub"},
+    {"name": "portfolio-v2", "desc": "Live project showcase", "url": "https://axe01010.github.io/portfolio-v2/"}
+  ]
+}
