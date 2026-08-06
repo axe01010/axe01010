@@ -52,7 +52,18 @@
 
 ---
 
-**axe git** · Android rescue · Cursor automation · security research · open-source tooling
+**axe git** · Android & Termux automation · Cursor automation · security research · open-source tooling
+
+**This profile has ONE center of gravity — [android-ai-agent](https://github.com/axe01010/android-ai-agent). Star it and you've found the free on-device AI stack.** Runs on your own phone, zero cloud.
+
+**The free on-device AI dev stack**
+| Repo | Role |
+|---|---|
+| **[android-ai-agent](https://github.com/axe01010/android-ai-agent)** | hero — a local LLM agent that controls your own phone over ADB, fully offline |
+| **[adb-mcp](https://github.com/axe01010/adb-mcp)** | the interface — adb as a typed, tested MCP surface for any AI agent |
+| **[termux-toolkit](https://github.com/axe01010/termux-toolkit)** | the utility — Android + Termux as a real dev environment |
+| **[skills-orchestrator](https://github.com/axe01010/skills-orchestrator)** · **[mcp-server-hub](https://github.com/axe01010/mcp-server-hub)** | supporting stack |
+| **[android-security-lab](https://github.com/axe01010/android-security-lab)** · **[security-research-hub](https://github.com/axe01010/security-research-hub)** | the privacy-first ethos |
 
 <br>
 
