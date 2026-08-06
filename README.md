@@ -40,9 +40,25 @@
 
 </div>
 
+<br>
+
+<div align="center">
+
+![snake](https://github.com/axe01010/axe01010/raw/output/github-contribution-grid-snake.svg)
+
+</div>
+
 ---
 
 **axe git** · Android rescue · Cursor automation · security research · open-source tooling
+
+<br>
+
+<div align="center">
+
+[![Visitors](https://komarev.com/ghpvc/?username=axe01010&color=45a06e&style=for-the-badge)](https://github.com/axe01010)
+
+</div>
 
 All graphics are **self-hosted** and rebuilt from [`profile.config.json`](https://github.com/axe01010/axe01010/blob/main/profile.config.json) + live GitHub data. Portrait from [`scripts/make_portrait.py`](https://github.com/axe01010/axe01010/blob/main/scripts/make_portrait.py). Daily CI: [`.github/workflows/stats.yml`](https://github.com/axe01010/axe01010/blob/main/.github/workflows/stats.yml).
 
