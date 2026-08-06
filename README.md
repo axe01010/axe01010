@@ -44,7 +44,9 @@
 
 <div align="center">
 
-![snake](https://github.com/axe01010/axe01010/raw/output/github-contribution-grid-snake.svg)
+![snake](https://github.com/axe01010/axe01010/raw/output/github-contribution-grid-snake-dark.svg)
+
+<sub>animated version: [github-contribution-grid-snake.gif](https://github.com/axe01010/axe01010/raw/output/github-contribution-grid-snake.gif)</sub>
 
 </div>
 
