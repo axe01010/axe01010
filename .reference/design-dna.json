@@ -1,0 +1,315 @@
+{
+  "meta": {
+    "name": "axe01010 Design DNA",
+    "description": "Extracted from existing GitHub profile README and portfolio-v2 site. Minimalist hacker aesthetic — no fluff, no cloud, phone-as-dev-machine.",
+    "source_references": [
+      "https://github.com/axe01010",
+      "https://axe01010.github.io/portfolio-v2/"
+    ],
+    "created_at": "2026-08-07"
+  },
+  "design_system": {
+    "color": {
+      "palette_type": "monochromatic",
+      "primary": {
+        "hex": "#0d1117",
+        "role": "background — GitHub dark canvas, the void the text floats on"
+      },
+      "secondary": {
+        "hex": "#58a6ff",
+        "role": "links, interactive accents — the only color that moves"
+      },
+      "accent": {
+        "hex": "#8b949e",
+        "role": "secondary text, timestamps, metadata — muted but legible"
+      },
+      "neutral": {
+        "scale": ["#0d1117", "#161b22", "#21262d", "#30363d", "#8b949e", "#c9d1d9"],
+        "usage": "bg → card → border → muted text → primary text, 6-step ramp"
+      },
+      "semantic": {
+        "success": "#3fb950",
+        "warning": "#d29922",
+        "error": "#f85149",
+        "info": "#58a6ff"
+      },
+      "surface": {
+        "background": "#0d1117",
+        "card": "#161b22",
+        "elevated": "#21262d"
+      },
+      "contrast_strategy": "high contrast — c9d1d9 on 0d1117, maximum readability for long code sessions"
+    },
+    "typography": {
+      "type_scale": {
+        "display": {"size": "1.6rem", "weight": 600, "line_height": 1.2, "tracking": "-0.02em"},
+        "heading_1": {"size": "1.4rem", "weight": 600, "line_height": 1.3, "tracking": "-0.01em"},
+        "heading_2": {"size": "1.1rem", "weight": 600, "line_height": 1.4, "tracking": "0"},
+        "heading_3": {"size": "0.95rem", "weight": 500, "line_height": 1.4, "tracking": "0"},
+        "body": {"size": "0.875rem", "weight": 400, "line_height": 1.6, "tracking": "0"},
+        "body_small": {"size": "0.8rem", "weight": 400, "line_height": 1.5, "tracking": "0.01em"},
+        "caption": {"size": "0.75rem", "weight": 400, "line_height": 1.4, "tracking": "0.02em"},
+        "overline": {"size": "0.7rem", "weight": 500, "line_height": 1.3, "tracking": "0.08em"}
+      },
+      "font_families": {
+        "heading": "system-ui, -apple-system, sans-serif",
+        "body": "system-ui, -apple-system, sans-serif",
+        "mono": "ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace"
+      },
+      "font_style_notes": "System font stack for body — fast, native, no web font load. Mono for code blocks only. No decorative typefaces. Geometric sans implied by system-ui."
+    },
+    "spacing": {
+      "base_unit": "4px",
+      "scale": [4, 8, 12, 16, 24, 32, 48, 64],
+      "content_density": "comfortable — generous line-height 1.6, section gaps at 32px+",
+      "section_rhythm": "24px between sections, 8px between list items, 4px between inline elements"
+    },
+    "layout": {
+      "grid_system": "single column, max-width 720px, left-aligned",
+      "max_content_width": "720px",
+      "columns": 1,
+      "gutter": "0",
+      "breakpoints": {"mobile": "480px", "tablet": "768px", "desktop": "1024px"},
+      "alignment_tendency": "strict left-align — code-block centered stack diagram is the only centered element"
+    },
+    "shape": {
+      "border_radius": {
+        "small": "4px",
+        "medium": "6px",
+        "large": "8px",
+        "pill": "9999px"
+      },
+      "border_usage": "subtle 1px #30363d on cards, none on text",
+      "divider_style": "none — whitespace separates sections"
+    },
+    "elevation": {
+      "shadow_style": "none — flat markdown, no shadows possible in GitHub README",
+      "levels": {
+        "low": "none",
+        "medium": "none",
+        "high": "none"
+      },
+      "depth_cues": "none — hierarchy is purely typographic"
+    },
+    "iconography": {
+      "style": "none — no icons in README, text-only",
+      "stroke_weight": "n/a",
+      "size_scale": "n/a",
+      "preferred_set": "none — unicode bullets (·, —, →) only"
+    },
+    "motion": {
+      "easing": "none",
+      "duration_scale": {"micro": "0", "normal": "0", "macro": "0"},
+      "entrance_pattern": "none — static markdown",
+      "exit_pattern": "none",
+      "philosophy": "none — the page does not move. it is read, not experienced."
+    },
+    "components": {
+      "button_style": "n/a in README — portfolio has plain links as buttons (no fill, no border)",
+      "input_style": "n/a",
+      "card_style": "n/a in README — portfolio uses 1px border #30363d, 8px radius, bg #161b22",
+      "navigation_pattern": "n/a — single page scroll",
+      "modal_style": "n/a",
+      "list_style": "plain unordered lists, no bullets, no custom markers",
+      "component_notes": "GitHub README is pure markdown — no custom HTML components. Portfolio uses semantic HTML with minimal CSS."
+    }
+  },
+  "design_style": {
+    "aesthetic": {
+      "mood": ["terse", "functional", "hacker", "no-nonsense", "confident"],
+      "visual_metaphor": "terminal output — the page reads like a well-commented shell session",
+      "era_influence": "2020s minimalist developer aesthetic — post-badge-fatigue, anti-SaaS-template",
+      "genre": "indie hacker / developer portfolio",
+      "personality_traits": ["meticulous", "independent", "direct", "anti-corporate"],
+      "adjectives": ["terse", "functional", "monochromatic", "text-first", "zero-fluff"]
+    },
+    "visual_language": {
+      "complexity": "minimal — every element earns its place, nothing decorative",
+      "ornamentation": "none — no badges, no emojis, no SVG art, no animated gradients",
+      "whitespace_usage": "generous — sections breathe, 24px+ gaps, no cramped layouts",
+      "visual_weight_distribution": "top-heavy — tagline + manifesto carry the weight, pinned repos provide scan anchors",
+      "focal_strategy": "single hero element — the tagline `> phone. termux. real work.` is the only thing that matters",
+      "contrast_level": "high — maximum contrast for readability, no subtle layering",
+      "texture_usage": "none — flat color, no noise, no gradients, no patterns"
+    },
+    "composition": {
+      "hierarchy_method": "typographic hierarchy — h2 headers create sections, code block creates visual anchor, bold text creates scan points",
+      "balance_type": "asymmetric — left-aligned throughout, no centering except the stack diagram",
+      "flow_direction": "vertical scroll — single axis, no lateral movement",
+      "grouping_strategy": "section-based — related content grouped under h2 headers, separated by whitespace",
+      "negative_space_role": "active — whitespace is not empty, it is structure. gaps define sections more than borders do."
+    },
+    "imagery": {
+      "photo_treatment": "none — zero images in README",
+      "illustration_style": "none",
+      "graphic_elements": "ASCII stack diagram — the only non-text visual",
+      "pattern_usage": "none",
+      "image_shape": "n/a"
+    },
+    "interaction_feel": {
+      "feedback_style": "none — static page",
+      "hover_behavior": "n/a",
+      "transition_personality": "none",
+      "loading_style": "n/a",
+      "microinteraction_density": "zero"
+    },
+    "brand_voice_in_ui": {
+      "tone": "lowercase declarative — sentences without capitalization, periods without ceremony",
+      "formality": "informal but precise — 'i treat it like one' not 'This organization provides'",
+      "cta_style": "direct imperative — 'star it', 'prs welcome', 'dm on github'",
+      "empty_state_approach": "n/a",
+      "error_tone": "n/a"
+    }
+  },
+  "visual_effects": {
+    "overview": {
+      "effect_intensity": "none",
+      "performance_tier": "lightweight — pure markdown, zero JS, zero CSS, renders instantly",
+      "fallback_strategy": "n/a — there is nothing to fall back from",
+      "primary_technology": "none — GitHub-flavored markdown only"
+    },
+    "background_effects": {
+      "type": "none",
+      "description": "flat #0d1117 background, no gradient, no noise, no animation",
+      "technology": "n/a",
+      "params": {
+        "color_palette": [],
+        "speed": "0",
+        "density": "0",
+        "opacity": "0",
+        "blend_mode": "n/a"
+      }
+    },
+    "particle_systems": {
+      "enabled": false,
+      "type": "none",
+      "description": "",
+      "technology": "n/a",
+      "params": {
+        "count": 0,
+        "shape": "n/a",
+        "size_range": "n/a",
+        "movement_pattern": "n/a",
+        "color_behavior": "n/a",
+        "interaction": "none",
+        "spawn_area": "n/a"
+      }
+    },
+    "3d_elements": {
+      "enabled": false,
+      "type": "none",
+      "description": "",
+      "technology": "n/a",
+      "params": {
+        "renderer": "n/a",
+        "lighting": "n/a",
+        "camera": "n/a",
+        "materials": "n/a",
+        "geometry": "n/a",
+        "post_processing": [],
+        "interaction_model": "n/a"
+      }
+    },
+    "shader_effects": {
+      "enabled": false,
+      "type": "none",
+      "description": "",
+      "technology": "n/a",
+      "params": {
+        "uniforms": "n/a",
+        "vertex_manipulation": "n/a",
+        "fragment_output": "n/a",
+        "noise_type": "n/a",
+        "distortion": "n/a"
+      }
+    },
+    "scroll_effects": {
+      "parallax": {
+        "enabled": false,
+        "layers": "0",
+        "depth_range": "0",
+        "speed_curve": "n/a"
+      },
+      "scroll_triggered_animations": {
+        "enabled": false,
+        "trigger_points": "n/a",
+        "animation_type": "n/a",
+        "scrub_behavior": "n/a"
+      },
+      "scroll_morphing": {
+        "enabled": false,
+        "description": ""
+      }
+    },
+    "text_effects": {
+      "type": "none",
+      "description": "plain text only — no split-letter, no typewriter, no glitch",
+      "technology": "n/a",
+      "params": {
+        "split_strategy": "n/a",
+        "animation_per_unit": "n/a",
+        "stagger": "n/a",
+        "effect_style": "n/a"
+      }
+    },
+    "cursor_effects": {
+      "enabled": false,
+      "type": "none",
+      "description": "",
+      "params": {
+        "shape": "n/a",
+        "size": "n/a",
+        "blend_mode": "n/a",
+        "trail": "n/a",
+        "interaction_zone": "n/a"
+      }
+    },
+    "image_effects": {
+      "type": "none",
+      "description": "",
+      "technology": "n/a",
+      "params": {
+        "filter_pipeline": "n/a",
+        "hover_transform": "n/a",
+        "reveal_animation": "n/a",
+        "distortion_type": "n/a"
+      }
+    },
+    "glassmorphism_neumorphism": {
+      "enabled": false,
+      "style": "none",
+      "params": {
+        "blur_radius": "0",
+        "transparency": "0",
+        "border_treatment": "n/a",
+        "shadow_type": "n/a",
+        "light_source_angle": "n/a"
+      }
+    },
+    "canvas_drawings": {
+      "enabled": false,
+      "type": "none",
+      "description": "",
+      "technology": "n/a",
+      "params": {
+        "draw_method": "n/a",
+        "animation_loop": "n/a",
+        "color_scheme": "n/a",
+        "responsiveness": "n/a",
+        "interaction": "n/a"
+      }
+    },
+    "svg_animations": {
+      "enabled": false,
+      "type": "none",
+      "description": "",
+      "params": {
+        "animation_method": "n/a",
+        "path_morphing": "n/a",
+        "stroke_animation": "n/a",
+        "filter_effects": "n/a"
+      }
+    },
+    "composite_notes": "This is a zero-effect design by intent. The entire aesthetic is 'what if the page did nothing.' Visual effects would contradict the brand. The only permitted flourish is the ASCII stack diagram in the README — a single static code-block illustration that explains the tech stack at a glance. Performance is instant (pure markdown, 0KB JS). The anti-effects stance IS the visual identity."
+  }
+}
