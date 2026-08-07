@@ -73,5 +73,5 @@ this README is hand-rolled. no stats card, no visitor counter, no "profile views
 ## contact
 
 - github: [@axe01010](https://github.com/axe01010)
-- portfolio: [krish.dev](https://krish.dev) *(coming soon)*
+- portfolio: [harrydev.one](https://harrydev.one) *(coming soon)*
 - email: DM on GitHub or open an issue
