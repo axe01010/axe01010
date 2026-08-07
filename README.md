@@ -1,78 +1,64 @@
-<div align="center">
+> phone. termux. real work.
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=axe%20git&fontSize=50&fontColor=ffffff&animation=fadeIn)
+android is a real computer. i treat it like one.
 
-[![Website](https://img.shields.io/badge/Portfolio-Live-45a06e?style=for-the-badge&logo=githubpages&logoColor=white)](https://axe01010.github.io/portfolio-v2/)
-[![Followers](https://img.shields.io/github/followers/axe01010?style=for-the-badge&logo=github&color=2f6f4f)](https://github.com/axe01010?tab=followers)
-[![Repos](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/axe01010&query=$.public_repos&label=Repos&color=2f6f4f&style=for-the-badge)](https://github.com/axe01010?tab=repositories)
+this org is the dev stack that fits in your pocket.
 
-</div>
+## stack
 
-<br>
+```
+phone
+  └─ termux  (no root required)
+       ├─ dotfiles · setup scripts · reproducible envs
+       ├─ python · node · shell · proot ubuntu
+       ├─ local llm (gpu-accelerated, no cloud)
+       ├─ cursor + agent skills over mcp
+       └─ adb as a typed mcp surface
+```
 
-<div align="center">
+## pinned
 
-![](https://github-readme-activity-graph.vercel.app/graph?username=axe01010&theme=dark&hide_border=true&bg_color=0d1117)
+- **[termux-toolkit](https://github.com/axe01010/termux-toolkit)** — dotfiles + scripts that turn android + termux into a reproducible dev env.
+- **[android-ai-agent](https://github.com/axe01010/android-ai-agent)** — local-llm agent that controls your phone over adb. zero cloud.
+- **[adb-mcp](https://github.com/axe01010/adb-mcp)** — typed mcp server wrapping adb: tap, swipe, screencap, install, logcat.
+- **[cursor-on-android](https://github.com/axe01010/cursor-on-android)** — one-command cursor ide + agent setup on android. termux-native.
+- **[skills-orchestrator](https://github.com/axe01010/skills-orchestrator)** — install + route cursor skills per project domain. one script.
+- **[android-security-lab](https://github.com/axe01010/android-security-lab)** — apk analysis, manifest diffing, threat hunting. cli-first.
 
-</div>
+## more
 
-<br>
+- **[on-device-llm-mobile](https://github.com/axe01010/on-device-llm-mobile)** — local llm inference on android. gpu-accelerated, no api keys.
+- **[mcp-server-hub](https://github.com/axe01010/mcp-server-hub)** — curated directory of mcp servers, installable from termux.
+- **[security-research-hub](https://github.com/axe01010/security-research-hub)** — writeups + diagrams.
+- **[nothing-phone-bootloop-recovery](https://github.com/axe01010/nothing-phone-bootloop-recovery)** — documented rescue of a nothing phone (3a) from a boot loop.
 
-<div align="center">
+## principles
 
-![](https://streak-stats.demolab.com/?user=axe01010&theme=dark&hide_border=true&background=0d1117)
+- no cloud by default. if a thing can run on a phone, it ships on a phone.
+- reproducible from a single script. no "follow these 12 steps".
+- if it can't run on termux, it doesn't ship in this org.
 
-</div>
+## currently
 
-<br>
+porting llama.cpp gpu paths to termux. adb-mcp needs typed wrappers for accessibility events.
 
-<div align="center">
+## looking for
 
-![skills](https://skillicons.dev/icons?i=android,linux,python,bash,git,github,terraform,ansible,grafana,prometheus&perline=5)
+- prs on `termux-toolkit` — `shellcheck` clean, one concern per diff.
+- apk samples for `android-security-lab` — manifest + dex, no personal data.
+- feedback from anyone running `android-ai-agent` on a non-pixel device.
 
-</div>
+## not
 
-<br>
+- no telemetry. no analytics. no "phone home".
+- no docker. no node_modules. no electron. no electron.
+- no "coming soon" features without an issue.
 
-<div align="center">
+## colophon
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=axe01010&theme=dark&no-frame=true&column=7)](https://github.com/ryo-ma/github-profile-trophy)
+this readme is hand-rolled. no stats card, no visitor counter, no "profile views" widget.
 
-</div>
+## elsewhere
 
-<br>
-
-<div align="center">
-
-![snake](https://github.com/axe01010/axe01010/raw/output/github-contribution-grid-snake-dark.svg)
-
-<sub>animated version: [github-contribution-grid-snake.gif](https://github.com/axe01010/axe01010/raw/output/github-contribution-grid-snake.gif)</sub>
-
-</div>
-
----
-
-**axe git** · Android & Termux automation · Cursor automation · security research · open-source tooling
-
-**This profile has ONE center of gravity — [android-ai-agent](https://github.com/axe01010/android-ai-agent). Star it and you've found the free on-device AI stack.** Runs on your own phone, zero cloud.
-
-**The free on-device AI dev stack**
-| Repo | Role |
-|---|---|
-| **[android-ai-agent](https://github.com/axe01010/android-ai-agent)** | hero — a local LLM agent that controls your own phone over ADB, fully offline |
-| **[adb-mcp](https://github.com/axe01010/adb-mcp)** | the interface — adb as a typed, tested MCP surface for any AI agent |
-| **[termux-toolkit](https://github.com/axe01010/termux-toolkit)** | the utility — Android + Termux as a real dev environment |
-| **[skills-orchestrator](https://github.com/axe01010/skills-orchestrator)** · **[mcp-server-hub](https://github.com/axe01010/mcp-server-hub)** | supporting stack |
-| **[android-security-lab](https://github.com/axe01010/android-security-lab)** · **[security-research-hub](https://github.com/axe01010/security-research-hub)** | the privacy-first ethos |
-
-<br>
-
-<div align="center">
-
-[![Visitors](https://komarev.com/ghpvc/?username=axe01010&color=45a06e&style=for-the-badge)](https://github.com/axe01010)
-
-</div>
-
-All graphics are **self-hosted** and rebuilt from [`profile.config.json`](https://github.com/axe01010/axe01010/blob/main/profile.config.json) + live GitHub data. Portrait from [`scripts/make_portrait.py`](https://github.com/axe01010/axe01010/blob/main/scripts/make_portrait.py). Daily CI: [`.github/workflows/stats.yml`](https://github.com/axe01010/axe01010/blob/main/.github/workflows/stats.yml).
-
-![footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer)
+- portfolio: [axe01010.github.io/portfolio-v2](https://axe01010.github.io/portfolio-v2/)
+- email: dm on github or open an issue
